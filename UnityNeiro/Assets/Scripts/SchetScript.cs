@@ -26,7 +26,7 @@ public class SchetScript : MonoBehaviour
         {
             hameObject.SetActive(false);
             hameObject1.SetActive(true);
-            text1.text = Game1.ToString() + "/6";
+            text1.text = Game1.ToString() + "/12";
             PlayerPrefs.SetInt("Game1", 0);
         }
     }
